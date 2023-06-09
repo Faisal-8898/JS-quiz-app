@@ -14,7 +14,7 @@ body{
     background-color: whitesmoke;
     text-align: center;
     justify-content: center;
-    align-self: center;
+
 }
 
 .landing-textbox{
@@ -57,10 +57,15 @@ body{
   transition: background-color 0.3s ease;
 }
 
+/* .whole-thing{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+} */
 
+/* QUSTION PAGE */
 .question-box{
     width: auto;
-    height: fit-content;
     max-width: 900px;
     display: flex;
     padding: 70px;
@@ -129,14 +134,25 @@ body{
   
 
   button[type="next"] {
-    display: flex;
   background: transparent;
 
   }
 
+  /* .forward{
+    position:absolute;
+    width: 5%;
+    right: 0;
+    margin-right: 5%;
+  } */
+  .forward {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to control the distance from the bottom */
+    right: 20px; /* Adjust this value to control the distance from the right */
+    margin-right: 3%;
+  }
+
   .next-to{
     height: 50px;
-
   }
   
   
